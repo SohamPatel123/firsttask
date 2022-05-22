@@ -1,0 +1,54 @@
+.mainbody{
+    display: flex;
+    justify-content: center;
+}
+
+.left_panel{
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 300px;
+}
+
+#rightpanel{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.dividednames{
+    height: 50px;
+    max-width: 300px;
+    vertical-align: middle;
+    display: flex;
+    padding: 5px;
+}
+
+.iconsname{
+    width: 250px;
+    text-overflow:ellipsis;
+    margin: auto;
+    font-size: large;
+    overflow:hidden;
+    white-space: nowrap; 
+    padding-left: 10px;
+}   
+
+.icons{
+    width:50px;
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#full_text{
+    height:20px;
+    width: 100%;
+    border: 0cm;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
+
+ 
